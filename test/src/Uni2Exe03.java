@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Uni2Exe03 {
     public static void main(String[] args) {
-               Scanner ler = new Scanner(System.in);
+        Scanner ler = new Scanner(System.in);
         DecimalFormat df_4 = new DecimalFormat("0.0000");
         Double pi = 3.14159;
         Double num1;
