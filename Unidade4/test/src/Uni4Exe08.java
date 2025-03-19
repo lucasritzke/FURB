@@ -6,6 +6,10 @@ public class Uni4Exe08 {
         System.out.println("Digite uma letra: ");
         String letra = ler.nextLine();
 
-        if (letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u"){}
+        if (letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u"){
+            System.out.println("é uma vogal");
+        }else {
+            System.out.println("Não é vogal");
+        }
     }
 }
